@@ -1,3 +1,7 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://illuworks.github.io"
+
+# JEKYLL SEO PLUGIN
+plugins:
+  - jekyll-seo-tag
