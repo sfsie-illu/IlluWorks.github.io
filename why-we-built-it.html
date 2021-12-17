@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>Why We Built It</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/favicon.png" type="image/x-icon">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+	</head> 
+	<body>
+<!-- Navigation 5 -->
+	<nav class="bg-bg-3 sticky-top py-4 py-lg-7">
+		<div class="d-block d-lg-none">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3" data-aos="fade-down" data-aos-delay="0">
+						<a href="#" class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#custom-id-m0eldoce">
+							<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+								<path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="text-center col-6" data-aos="fade-down" data-aos-delay="250">
+						<a href="#">
+							<img src="i/1-glow-logo-text-xs.png" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="0" srcset="i/1-glow-logo-text-sm.png 2x">
+						</a>
+					</div>
+					<div class="col-3" data-aos="fade-down" data-aos-delay="500">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-start bg-bg-3" id="custom-id-m0eldoce" aria-hidden="true">
+			<div class="offcanvas-header">
+				<a href="#">
+					<img src="i/1-glow-logo-text-xs.png" srcset="i/1-glow-logo-text-sm.png 2x" alt="" class="img-fluid">				
+				</a>
+				<a href="#" class="btn btn-sm btn-width-equal-height btn-bg-3" data-bs-dismiss="offcanvas">
+					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-2">
+						<path d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z" fill="#0C111E">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="offcanvas-body">
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+Home					
+					</a>
+				</div>
+				<div>
+					<a href="#features" class="fw-bold text-dark-1 py-2 d-inline-block">
+Features					
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+								Why We Built It
+					</a>
+				</div>
+				<div>
+					<a class="fw-bold text-dark-1 py-2 d-inline-block" href="https://medium.com/@ILLU.WORKS">
+								Blog
+					</a>
+				</div>
+				<a class="btn btn-action-1 btn-sm rounded-2 mt-4" href="https://calendly.com/illuworks/30min">
+							Schedule a Demo
+				</a>
+			</div>
+		</div>
+		<div class="d-none d-lg-block">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-2">
+						<a href="#">
+							<img src="i/1-glow-logo-text.png" srcset="i/1-glow-logo-text.png 2x" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="0">						
+						</a>
+					</div>
+					<div class="text-end col-9">
+						<a href="#" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="150">
+Home						
+						</a>
+						<a href="#features" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="250">
+									Features
+						</a>
+						<a href="#" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="400">
+									Why We Built It
+						</a>
+						<a class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="500" href="https://medium.com/@ILLU.WORKS">
+									Blog
+						</a>
+						<a class="ms-4 btn btn-action-1 btn-sm rounded-2" data-aos="fade-down" data-aos-delay="650" href="https://calendly.com/illuworks/30min">
+									Schedule Demo
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Header 4 -->
+		<header class="bg-bg-3 text-center py-14">
+			<div class="container">
+				<h1 class="display-3 remove-br" data-aos="fade-down" data-aos-delay="0">
+					Why We Built illu
+				</h1>
+				<p class="fs-1 pe-2 remove-br mb-md-8 mb-6" data-aos="fade-down" data-aos-delay="150">
+					Developing microgrids in Myanmar taught us 
+					<br> field work drives the success of distributed generation. 
+				</p>
+			</div>
+			<div class="container col-xl-9">
+				<img src="i/dji0806cropped.jpg" alt="" class="img-fluid">
+			</div>
+		</header>
+		<!-- Blog 7 -->
+			<section class="bg-bg-3 py-lg-10">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<h2 class="mb-6 mb-md-15" data-aos="fade-down" data-aos-delay="500">
+								Our goal is to make deploying, operating, and maintaining distributed renewable energy in the field as easy as possible
+							</h2>
+							<p class="mb-8 fs-1 text-dark-1" data-aos="fade-down" data-aos-delay="750">
+								Over the past two years, the illu team built, consulted, and operated more than a dozen microgrids across Myanmar. One consistent challenge we encountered was coordinating and ensuring high quality field work.
+							</p>
+							<p class="mb-8 fs-1 text-dark-1" data-aos="fade-down" data-aos-delay="750">
+								We realized that purpose-built software is critical to ensure clarity and accountability in all aspects of daily operations, especially for remote teams with limited communication. We built illu as a home base to illuminate the field work critical to deploying, operating, and maintaining microgrids.
+							</p>
+							<h3 class="mb-6 mb-md-15" data-aos="fade-down" data-aos-delay="500">
+								Clear, standardized work instructions so field technicians know exactly what to do
+							</h3>
+							<p class="mb-8 fs-1 text-dark-1" data-aos="fade-down" data-aos-delay="750">
+								First and foremost, we wanted a software platform that put the needs of field technicians at its core. When working on site, the last thing technicians want is to be juggling manuals, checklists, and work orders to figure out what to do and how to report it.
+								<br> 
+								<br>
+illu's "workflow" framework lets organizations turn any process into strikingly simple step-by-step cards. This way, technicians have all the information they need at their fingertips. Inputs and records are integrated all in one place so technicians can leave track readings, record comments, and save photos as they swipe through the workflow.
+								<br>
+								<br>
+Moreover, illu makes it easy to embed health and safety requirements within  your work instructions. This way, field teams can build a culture of safety and reliability as a part of their daily work process, not as a standalone requirement.
+							</p>
+							<h3 class="mb-6 mb-md-15" data-aos="fade-down" data-aos-delay="500">
+								One command center for all field operations
+							</h3>
+							<p class="mb-8 fs-1 text-dark-1" data-aos="fade-down" data-aos-delay="750">
+								Field teams are often handling a variety of work on their trips to site. illu's software enables field teams to track all their activities in one place, whether it's incident response, preventative maintenance, site inspection, commissioning, customer support, or anything else.
+								<br>
+								<br>
+Stop juggling messaging apps, spreadsheets, and loose documents to manage different types of field work. illu's software platform keeps all field work in one place, so managers can efficiently plan and schedule work across the full team and portfolio, and every knows exactly what needs to be done.
+							</p>
+							<h3 class="mb-6 mb-md-15" data-aos="fade-down" data-aos-delay="500">
+								Keep track of work no matter where you are
+							</h3>
+							<p class="mb-8 fs-1 text-dark-1" data-aos="fade-down" data-aos-delay="750">
+								Each job in illu keeps a record of updates in its own activity feed , whether it's workflows completed, deadlines changed, or new team members assigned. This way, progress is tracked for reporting without burdensome retroactive documentation.
+								<br> 
+								<br>
+illu's robust offline functionality allows users to bookmark upcoming jobs to be available offline. This way, field technicians can follow workflows, and log updates on work even in the most remote contexts. When they come back online, updates are automatically synced to the app, so the full team can see their progress.
+							</p>
+							<h3 class="mb-6 mb-md-15 text-action-1" data-aos="fade-down" data-aos-delay="500">
+								No matter what algorithms you have or what battery tech you’ve installed, someone will need to go and install it, commission it, maintain it, and fix it.
+								<br> 
+								<br> 
+illu helps reduce OPEX and improve system uptime by streamlining field work and supercharging your field technicians. 
+							</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Form 4 -->
+				<section class="bg-bg-3 py-10 text-center">
+					<div class="container">
+						<h2 class="mb-6" data-aos="fade-down" data-aos-delay="0">
+							Get started with illu today
+						</h2>
+						<div class="row flex-column align-items-center">
+							<div class="col-lg-5 col-md-6 col-sm-9 col-xl-3">
+								<a href="https://calendly.com/illuworks/30min" class="btn btn-action-1 w-100 position-relative" data-aos="fade-down" data-aos-delay="250">
+									<text>
+										Request a demo
+									</text>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Footer 2 -->
+					<footer class="bg-bg-3 py-8 text-center">
+						<div class="container">
+							<div class="row justify-content-between">
+								<div class="col-lg-2 col-md-3 mb-6 mb-md-0" data-aos="fade-down" data-aos-delay="0">
+									<a href="#">
+										<img src="i/1-glow-logo-text-xs.png" srcset="i/1-glow-logo-text-sm.png 2x" alt="" class="img-fluid">
+									</a>
+								</div>
+								<div class="col mb-4 mb-md-0" data-aos="fade-down" data-aos-delay="150">
+									<a href="#" class="font-heading text-dark-1 mx-4">
+																		Privacy
+									</a>
+									<a href="#" class="font-heading text-dark-1 mx-4">
+																		Terms of Service
+									</a>
+									<a href="#" class="font-heading text-dark-1 mx-4">
+																		Contact
+									</a>
+								</div>
+								<div class="col-12 col-lg-2 col-md-3" data-aos="fade-down" data-aos-delay="250">
+									<a href="https://twitter.com/illu_works" target="_blank">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1">
+											<path d="M22.4591 6C21.6891 6.35 20.8591 6.58 19.9991 6.69C20.8791 6.16 21.5591 5.32 21.8791 4.31C21.0491 4.81 20.1291 5.16 19.1591 5.36C18.3691 4.5 17.2591 4 15.9991 4C13.6491 4 11.7291 5.92 11.7291 8.29C11.7291 8.63 11.7691 8.96 11.8391 9.27C8.27906 9.09 5.10906 7.38 2.99906 4.79C2.62906 5.42 2.41906 6.16 2.41906 6.94C2.41906 8.43 3.16906 9.75 4.32906 10.5C3.61906 10.5 2.95906 10.3 2.37906 10V10.03C2.37906 12.11 3.85906 13.85 5.81906 14.24C5.18979 14.4122 4.52916 14.4362 3.88906 14.31C4.16067 15.1625 4.6926 15.9084 5.41008 16.4429C6.12756 16.9775 6.99451 17.2737 7.88906 17.29C6.37269 18.4904 4.49306 19.1393 2.55906 19.13C2.21906 19.13 1.87906 19.11 1.53906 19.07C3.43906 20.29 5.69906 21 8.11906 21C15.9991 21 20.3291 14.46 20.3291 8.79C20.3291 8.6 20.3291 8.42 20.3191 8.23C21.1591 7.63 21.8791 6.87 22.4591 6Z">
+											</path>
+										</svg>
+									</a>
+									<a href="https://www.facebook.com/illu.works" target="_blank">
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1 mx-6">
+											<path d="M12 2.03906C6.5 2.03906 2 6.52906 2 12.0591C2 17.0591 5.66 21.2091 10.44 21.9591V14.9591H7.9V12.0591H10.44V9.84906C10.44 7.33906 11.93 5.95906 14.22 5.95906C15.31 5.95906 16.45 6.14906 16.45 6.14906V8.61906H15.19C13.95 8.61906 13.56 9.38906 13.56 10.1791V12.0591H16.34L15.89 14.9591H13.56V21.9591C15.9164 21.5869 18.0622 20.3846 19.6099 18.5691C21.1576 16.7537 22.0054 14.4447 22 12.0591C22 6.52906 17.5 2.03906 12 2.03906Z">
+											</path>
+										</svg>
+									</a>
+									<a href="https://www.linkedin.com/company/illuworks/" target="_blank">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-dark-1">
+											<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
+											</path>
+										</svg>
+										<path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z" class="fill-dark-1">
+										</path>
+									</a>
+								</div>
+							</div>
+							<div class="mt-6 mb-8 border-bottom border-dark-3" data-aos="fade-down" data-aos-delay="400">
+							</div>
+						</div>
+					</footer>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		
+		<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
